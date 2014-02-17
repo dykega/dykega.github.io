@@ -9,6 +9,7 @@
 	<!-- Date: 2014-02-10 -->
 </head>
 <body>
+<div class="content">
 <header>
 	<h1>Gage Dykema</h1>
 </header>
@@ -24,5 +25,9 @@
 <h3>Github Username</h3>
 	<ul><li>dykega</li></ul>
 </div>
+</div>
+<footer>
+<p>Site created and designed by Gage Dykema</p>
+</footer>
 </body>
 </html>
