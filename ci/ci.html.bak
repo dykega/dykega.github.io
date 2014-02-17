@@ -14,15 +14,15 @@
 </header>
 <nav><a href="../index.html"> Home </a><a href="../resume/resume.html"> Resume </a><a href="ci.html"> Contact Info </a><a href="../picpage/picpage.html"> Pictures </a></nav>
 <h1 class="title">Contact Information</h1>
-<div class="resume">
+<div class="compact">
 <h3>Name</h3>
-	<p>Gage Dykema</p>
+	<ul><li>Gage Dykema</li></ul>
 <h3>Address</h3>
-	<p>807 Eastridge Drive, Northfield MN, 55057</p>
+	<ul><li>807 Eastridge Drive, Northfield MN, 55057</li></ul>
 <h3>Email Address</h3>
-	<p>gdykema@gmail.com</p>
+	<ul><li>gdykema@gmail.com</li></ul>
 <h3>Github Username</h3>
-	<p>dykega</p>
+	<ul><li>dykega</li></ul>
 </div>
 </body>
 </html>

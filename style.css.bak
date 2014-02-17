@@ -1,6 +1,29 @@
 body
 {
-	margin: 0px;
+	margin: 0% 0% 5% 0%;
+	background: rgb(125,126,125); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+	height:95%;
+	background-attachment:fixed;
+}
+html
+{
+	height:95%;
+	margin-bottom:5%;
+}
+.content
+{
+	background-color:white;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	height:100%;
 }
 h1, h2 {
 	background: #EBEBEB;
@@ -12,6 +35,7 @@ h1, h2 {
 }
 p
 {
+	background:white;
 	padding-left:10px;
 	text-indent: 30px;
 }
@@ -59,27 +83,35 @@ header h1
 
 .left
 {
+	background:white;
 	float: left;
 	width: 60%;
 	padding-right:10%;
 }
 .right
 {
+	background:white;
 	float: right;
 	width:30%;
 }
-
-.resume p, ul
+.compact
+{
+	background-color:white;
+}
+.compact p, ul
 {
 	margin:0px;
 	text-indent:0px;
+	background-color:white;
 }
-.resume h3
+.compact h3
 {
+	background-color:white;
 	margin: 5px;
 }
 .no_indent
 {
+	background-color:white;
 	text-indent:0px;
 }
 .title
