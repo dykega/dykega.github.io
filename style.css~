@@ -139,6 +139,4 @@ p.footer
 	clear:both;
 	width:99.1%;
 	height:50px;
-	color:white;
-	text-align:center;
 }
