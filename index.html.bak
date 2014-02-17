@@ -11,7 +11,6 @@
 <body>
 <header>
 	<h1>Gage Dykema</h1>
-</header>
 <nav><a href="index.html"> Home </a><a href="resume/resume.html"> Resume </a><a href="ci/ci.html"> Contact Info </a><a href="picpage/picpage.html"> Pictures </a></nav>
 <h1>Hello World!</h1>
 	<p>This a homepage for myself (Gage Dykema) and for my Internet Programming class.  This page will provide some basic information about myself.</p>
