@@ -5,19 +5,24 @@
 	<title>Gage Dykema Homepage</title>
 	<meta name="generator" content="TextMate http://macromates.com/">
 	<meta name="author" content="Gage Dykema">
+	<link rel="stylesheet" href="../style.css" type="text/css">
 	<!-- Date: 2014-02-10 -->
 </head>
 <body>
+<header>
+	<h1>Gage Dykema</h1>
+</header>
 <nav><a href="../index.html"> Home </a><a href="../resume/resume.html"> Resume </a><a href="ci.html"> Contact Info </a><a href="../picpage/picpage.html"> Pictures </a></nav>
-<h1>Contact Information</h1>
-<h2>Name</h2>
+<h1 class="title">Contact Information</h1>
+<div class="resume">
+<h3>Name</h3>
 	<p>Gage Dykema</p>
-<h2>Address</h2>
+<h3>Address</h3>
 	<p>807 Eastridge Drive, Northfield MN, 55057</p>
-<h2>Email Address</h2>
+<h3>Email Address</h3>
 	<p>gdykema@gmail.com</p>
-<h2>Github Username</h2>
+<h3>Github Username</h3>
 	<p>dykega</p>
-
+</div>
 </body>
 </html>
