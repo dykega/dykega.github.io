@@ -1,37 +1,154 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Gage Dykema Homepage</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Gage Dykema">
-	<!-- Date: 2014-02-10 -->
-	<LINK REL=StyleSheet HREF="style.css" TYPE="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="Gage Dykema" content="">
+
+    <title>Gage Dykema</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
 </head>
-<div class="content">
+
 <body>
-<header>
-	<h1>Gage Dykema</h1>
-</header>
-<nav><a href="index.html"> Home </a><a href="resume/resume.html"> Resume </a><a href="ci/ci.html"> Contact Info </a><a href="picpage/picpage.html"> Pictures </a></nav>
-<div class="left">
-<h1>Hello World!</h1>
-	<p>This a homepage for myself (Gage Dykema) and for my Internet Programming class.  This page will provide some basic information about myself.</p>
-<h2>About Me</h2>
-<p id="about_me">My name is Gage Dykema and I am a Junior at Luther College studying Management and Computer Science.  I am originally from Northfield Minnesota and I also live in Burnsville Minnesota part time.  I spent a year before I started college attending the equivalent of senior year of high school in Lerum Sweden.  There I learned not only the Swedish language and culture, but also developed an ability to quickly adapt and learn, and also a love for traveling. Professionally I am interested in Information Security, CRM systems, and management or leadership positions within Marketing or Computer Science.  In the near future, I hope to be established in a company working hard, learning new technologies, and working at moving into a leadership position.</p>
-</div>
-<div class="right">
-<img src="pics/pic3.jpg" width="75%" height="75%" />
-<h2>Quick Info</h2>
-<ul><li>Name: Gage Dykema</li>
-	<li>Age: 22</li>
-	<li>Majors: Management & Computer Science</li>
-	<li>GPA: 3.91</li>
-	<li>Interests: Fly Fishing, Cross Country Skiing, Soccer, & Wakeboarding (among many others)</li></ul>
-</div>
-</div>
+
+    <div class="brand">Gage Dykema</div>
+    <div class="address-bar">gdykema@gmail.com | 807 Eastrdige Drive | Northfield, Minnesota 55057 | github:dykega</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gage Dykema</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="resume.html">Resume</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                    <li><a href="photo_gallery.html">Photo Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2>
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1>
+                        <span class="brand-name">Gage Dykema - Homepage</span>
+                    </h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By <strong>Gage Dykema</strong></small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Hello <strong>World!</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="" height="50%" width="50%">
+                    <hr class="visible-xs">
+                    <p>My name is Gage Dykema and I am a Junior at Luther College studying Management and Computer Science. I am originally from Northfield Minnesota and I also live in Burnsville Minnesota part time. I spent a year attending the equivalent of senior year of high school in Lerum Sweden. There I learned not only the Swedish language and culture, but also developed an ability to quickly adapt and learn, and also a love for traveling.</p>
+                    <p> Professionally I am interested in Information Security, CRM systems, and management or leadership positions within Marketing or Computer Science. In the near future, I hope to be established in a company working hard, learning new technologies, and working at moving into a leadership position.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">About <strong>this page</strong>
+                    </h2>
+                    <hr>
+                    <p>This a homepage for me(Gage Dykema) and was originally done for my Internet Programming class. This page will provide some basic information about myself.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Gage Dykema 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
 </body>
-<footer>
-<p>Site created and designed by Gage Dykema</p>
-</footer>
+
 </html>

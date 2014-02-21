@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="Gage Dykema" content="">
+
+    <title>Photo Gallery - Gage Dykema</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="brand">Gage Dykema</div>
+    <div class="address-bar">gdykema@gmail.com | 807 Eastridge Drive | Northfield, Minnesota 55057 | github:dykega</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gage Dykema</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="resume.html">Resume</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                    <li><a href="photo_gallery.html">Photo Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 col-sm-4">
+                    <hr>
+                    <h2 class="intro-text text-center">Photo <strong>Gallery</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
+                    <h2>Mudman Race
+                        <br>
+                        <small>Summer 2013</small>
+                    </h2>
+                    <p>In the summer of 2013 my father, some family friends, and I participated in the Mud Man race at Spirit Mountain in Duluth Minnesota.  It was a very entertaining and difficult race.  The only thing that made for having to run up and down a mountain twice was that we got to do muddy obstacles every now and then.</p>
+                    <hr>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
+                    <h2>"The Wall"
+                        <br>
+                        <small>Spring 2011</small>
+                    </h2>
+                    <p>For my class's final project in Sweden, we were given the chance to perform Pink Floyds album "The Wall".  It was an awesome experience with great music and great people.  Not only did I get to perform some songs, but I also got to listen to my classmates play some really difficult but amazing songs.  It was a perfect way to wrap up my school year in Sweden.</p>
+                    <hr>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
+                    <h2>Sweden - Class
+                        <br>
+                        <small>Fall 2010</small>
+                    </h2>
+                    <p>Another picture from Sweden, but this one is from the beginning of my stay.  This shot is from a performance we did for one of our classes.  The whole class formed groups and was told to pick and perform a song.  It was difficult for me to find a group and get to know everyone, but once I did I had the time of my life.</p>
+                    <hr>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-responsive img-border img-full" src="img/intro-pic.jpg" alt="">
+                    <h2>Chelsea Game
+                        <br>
+                        <small>Summer 2012</small>
+                    </h2>
+                    <p>Anyone who knows me knows that I am a very passionate Chelsea FC fan.  So, when they came to play in the states, I had to make the trip out to Seattle with one of my friends to see it.  This was my first time seeing Chelsea play live and it was quite the experience.  I even got to see and touch the trophies!</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Gage Dykema 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

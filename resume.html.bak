@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="Gage Dykema" content="">
+
+    <title>Resume - Gage Dykema</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="brand">Gage Dykema</div>
+    <div class="address-bar">gdykema@gmail.com | 807 Eastridge Drive | Northfield, Minnesota 55057 | github:dykega</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Gage Dykema</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="resume.html">Resume</a>
+                    </li>
+					<li><a href="contact.html">Contact</a>
+                    </li>
+					<li><a href="photo_gallery.html">Photo Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">My <strong>resume</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>My full resume and cover letters are availabe upon request.</p>
+                    <h3>EDUCATION</h3>
+					<p>Luther College Decorah, Iowa United States<br>
+					Management and Computer Science, May 2015</p>
+					<ul><li>3.906 GPA</li>
+						<li>5 Semesters on Dean's List</li></ul>
+					<br>
+					<p>Lerums Gymnasium Lerum, Sweden<br/>
+					School of Music, May 2011</p>
+					<ul><li>Completed one year (equiv. senior year) of Swedish equivalent high school through Rotary Youth Exchange</li></ul>
+
+					<h3>PROFESSIONAL EXPERIENCE</h3>
+					<p>Luther College Decorah, Iowa United States<br/>
+					Web Programmer August 2013-Present</p>
+						<ul><li>Developed Luther College Reason CMS</li>
+						<li>Programmed re-design of Luther College admission site</li></ul>
+					<p>CRM Intern September 2012-Present</p>
+						<ul><li>Implemented Constant Contact CRM system for all non-admissions Luther communications</li>
+						<li>Developed "Email Request" system and standard operating procedures for CRM</li>
+						<li>Manage all users and communications sent through the CRM</li>
+						<li>Leader in trouble-shooting for problems arising with CRM or Constant Contact</li>
+						<li>Served on search committee for "CRM Coordinator" position </li></ul>
+					<h3>ADDITIONAL SKILLS</h3>
+						<ul><li>Proficient in C++ and Python programming languages</li>
+						<li>Proficient in Bash shell commands</li>
+						<li>Proficient in PHP, HTML, and CSS web programming languages</li>
+						<li>Fluent in Swedish</li></ul>
+
+					<h3>ACTIVITIES AND INTERESTS</h3>
+						<ul><li>Member of Norsemen and Cathedral Choirs</li>
+						<li>Participated in intramural soccer and broomball</li>
+						<li>Wakeboarding</li>
+						<li>Hiking and Camping</li></ul>
+					<h3>REFERENCES</h3>
+					<p>References are available in full resume.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">My <strong>cover letter</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/slide-1.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+				<strong> Below is a sample of my cover letter.  A complete version is availabe upon request.</strong>
+				<br />
+				<div class = "cl">
+				<br/>
+				<p id="to">To whom it may concern,</p>
+				<p>In the1990's there was a management guru who heard a story about the Chicago Symphony that caught his attention.  Before this time, the Chicago Symphony was known for being a "dog orchestra" and ticket sales and memberships were declining because of it.  Then they hired a new conductor and everything turned around.  Ticket sales and memberships began to climb and the Chicago Symphony was voted one of the best symphonies in the nation.  Curious as to how this new conductor had inspired such change in his musicians the management guru set up a meeting with him.  The conductor revealed that instead of trying to instruct the whole group or the less talented portion, he only taught to the upper two percent of talent in the group.  He explained this strategy by saying that the amount of talent or skill in any organization (including his own) is distributed along a normal bell curve and that the amount of talent between any two groups of talent is fixed.  So by teaching to only the most talented of his musicians, these people in turn would pull the other musicians and the talent level of the group along with them as they learned.</p>  
+				<p>This is the group I want to be among in your organization and the role I want to play.  I am continually striving to learn new technologies, programming languages, and management techniques and strive to use this knowledge to push an organization forward.  My ability to learn, adapt, and innovate has been proven in my time implementing the CRM system for Luther College from the ground up and by my experience designing and developing Luther Colleges' version of Reason CMS.</p>
+				<strong>To read more of my cover letter or resume...</strong>
+				<p>feel free to contact me and I can send you both my full resume and cover letter</p>
+				</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Company 2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
