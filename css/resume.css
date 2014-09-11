@@ -1,0 +1,19 @@
+p {
+	line-height: normal;
+}
+
+h3{
+	letter-spacing: normal;
+	background-color: #98989E;
+}
+
+h3.resume-header{
+	padding: 3px 0px 3px 3px;
+	color: #FFF;
+	border: 1px solid black;
+}
+
+img.resume-pic{
+	margin:25px 25px 25px 0px;
+	display: block;
+}

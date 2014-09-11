@@ -14,6 +14,7 @@
 
     <!-- Add custom CSS here -->
     <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 </head>
 
 <body>
@@ -62,21 +63,19 @@
                     <hr>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
-                </div>
-                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/intro-pic2.jpg" alt="">
                     <p>My full resume and cover letters are availabe upon request.</p>
-                    <h3>EDUCATION</h3>
+                    <h3 class="resume-header">EDUCATION</h3>
 					<p>Luther College Decorah, Iowa United States<br>
 					Management and Computer Science, May 2015</p>
-					<ul><li>3.906 GPA</li>
+					<ul><li>3.91 GPA</li>
 						<li>5 Semesters on Dean's List</li></ul>
 					<br>
 					<p>Lerums Gymnasium Lerum, Sweden<br/>
 					School of Music, May 2011</p>
 					<ul><li>Completed one year (equiv. senior year) of Swedish equivalent high school through Rotary Youth Exchange</li></ul>
 
-					<h3>PROFESSIONAL EXPERIENCE</h3>
+					<h3 class="resume-header">PROFESSIONAL EXPERIENCE</h3>
 					<p>Luther College Decorah, Iowa United States<br/>
 					Web Programmer August 2013-Present</p>
 						<ul><li>Developed Luther College Reason CMS</li>
@@ -87,18 +86,18 @@
 						<li>Manage all users and communications sent through the CRM</li>
 						<li>Leader in trouble-shooting for problems arising with CRM or Constant Contact</li>
 						<li>Served on search committee for "CRM Coordinator" position </li></ul>
-					<h3>ADDITIONAL SKILLS</h3>
+					<h3 class="resume-header">ADDITIONAL SKILLS</h3>
 						<ul><li>Proficient in C++ and Python programming languages</li>
 						<li>Proficient in Bash shell commands</li>
 						<li>Proficient in PHP, HTML, and CSS web programming languages</li>
 						<li>Fluent in Swedish</li></ul>
 
-					<h3>ACTIVITIES AND INTERESTS</h3>
+					<h3 class="resume-header">ACTIVITIES AND INTERESTS</h3>
 						<ul><li>Member of Norsemen and Cathedral Choirs</li>
 						<li>Participated in intramural soccer and broomball</li>
 						<li>Wakeboarding</li>
 						<li>Hiking and Camping</li></ul>
-					<h3>REFERENCES</h3>
+					<h3 class="resume-header">REFERENCES</h3>
 					<p>References are available in full resume.</p>
                 </div>
                 <div class="clearfix"></div>
@@ -139,7 +138,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Company 2013</p>
+                    <p>Copyright &copy; Gage Dykema 2014</p>
                 </div>
             </div>
         </div>
