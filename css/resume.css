@@ -1,5 +1,6 @@
 ﻿p {
 	line-height: normal;
+	margin: 2px;
 }
 
 h3{
@@ -20,4 +21,12 @@ img.resume-pic{
 
 .resume_break{
 	margin-top: 120px;
+}
+
+.position {
+	margin-bottom: 3px;
+	padding: 0;
+	font-size: 12px;
+	font-style: italic;
+	color:gray;
 }
